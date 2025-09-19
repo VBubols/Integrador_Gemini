@@ -6,7 +6,7 @@ export default function Gemini() {
     const [resposta, setResposta] = useState();
     
     const pergunta = async () => {
-        const apiKey = 'AIzaSyCAqB8STdN_x_LZB1DalDtHoQ_aSjmLY-0';
+        const apiKey = '';
         const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
         const resposta = await fetch(url, {
