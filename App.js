@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import Cadastro from './componentes/Cadastro';
+import Gemini from './componentes/Gemini';
 
 export default function App() {
   return (
     <View style={styles.container}>
 
-      <Cadastro></Cadastro>
+      <Gemini></Gemini>
 
       <StatusBar style="auto" />
     </View>
